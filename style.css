@@ -1,0 +1,545 @@
+*{margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.navbar-nav{
+   width: 55%;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+.navbar{
+    color: black;
+    background-color: white;
+   
+    
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    color: #343434;
+    font-weight: 700;
+}
+.nav-item-home::after{
+    content: " ";
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: 7;
+    left: 9;
+}
+.daniels{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center ;
+    align-items:center ;
+}
+.hello{
+    text-align: center;
+}
+.hello1{
+    text-align: center;
+}
+.hello h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+
+}
+.hello1 h5{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.hello1 h5::before{content: " ";
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    animation-name: move;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;  
+    margin-top: 10px;
+}
+@keyframes move{ 
+    2%{content: "W ";}
+    4%{content:"We";}
+    6%{content: "Web ";}
+    8%{content: " Web D";}
+    10%{content: "Web De";}
+    12%{content: "Web Des";}
+    14%{content: "Web Desi";}
+    16%{content: "Web Desig";}
+    18%{content: "Web Design ";}
+    20%{content: "Web Designe";}
+    22%{content: "Web Designer";}
+    24%{content: "Web Designe";}
+    26%{content: "Web Design";}
+    28%{content: "Web Desig";}
+    30%{content: "Web Desi";}
+    32%{content: "Web Des";}
+    34%{content: "Web De";}
+    36%{content: "Web D";}
+    38%{content: "Web ";}
+    40%{content: "Web D";}
+    42%{content: "Web De";}
+    44%{content: "Web Dev";}
+    46%{content: "Web Deve";}
+    48%{content: "Web Devel";}
+    50%{content: "Web Develo";}
+    52%{content: "Web Develop";}
+    54%{content: "Web Develope";}
+    56%{content: "Web Developer";}
+    58%{content: "Web Develope";}
+    60%{content: "Web Develop";}
+    62%{content: "Web Develo";}
+    64%{content: "Web Devel";}
+    66%{content: "Web Deve";}
+    68%{content: "Web Dev";}
+    70%{content: "Web De";}
+    72%{content: "Web D";}
+    74%{content: "Web ";}
+    76%{content: "Web";}
+    78%{content: "We";}
+    80%{content: "W";}
+    82%{content: "";}
+    84%{content: "F";}
+    86%{content: "Fr";}
+    88%{content: "Fro";}
+    90%{content: "Front";}
+    92%{content: "Frontend";}
+    94%{content: "Frontend D";}
+    96%{content: "Frontend Deve";}
+    98%{content: "Frontend Develop";}
+    100%{content: "Frontend Developer";}
+}
+.hello2{
+    color: blue;
+    text-align: center;
+}
+.linkk i{
+    width:40px;
+    height: 40px;
+    background-color: #060606;
+    border-radius: 50%;
+    line-height: 35px;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 4px;
+    color: #fff;
+    margin-top: 20px;
+
+}
+.linkk button{
+    background-color: transparent;
+    border: none;
+}
+.hero{
+    margin-top: 50px;
+}
+.man{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.about-man{
+    position: relative;
+}
+.man::after{
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.about-man h2{
+    
+    font-weight: 800;
+
+}
+.about-man p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    
+}
+
+
+.jerry{
+    font-size: 18px;
+    font-weight: 600;
+}
+.percentage{
+    display: flex;
+    width: 90%;
+    background-color: #060606;
+    height: 25px;
+    justify-content: space-between;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    align-items: baseline;
+    border-radius: 5px;
+    
+
+}
+.percentage h4{font-size: 15;
+    display: inline-block;
+}
+.percentage p{
+    color: #fff;
+}
+.percentage1{
+    display: flex;
+    width: 75%;
+    background-color: #060606;
+    height: 25px;
+    justify-content: space-between;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    align-items: baseline;
+    border-radius: 5px;
+    
+
+}
+.percentage1 h4{font-size: 15;
+    display: inline-block;
+}
+.percentage1 p{
+    color: #fff;
+}
+.percentage2{
+    display: flex;
+    width: 85%;
+    background-color: #060606;
+    height: 25px;
+    justify-content: space-between;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    align-items: baseline;
+    border-radius: 5px;
+    
+
+}
+.percentage2 h4{font-size: 15;
+    display: inline-block;
+}
+.percentage2 p{
+    color: #fff;
+}
+.download{
+    padding: 7px 12px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    transition: all .8s;
+}
+.contact-me{
+    padding: 7px 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #060606;
+    transition: all .8s;
+
+}
+.download:hover{
+    background-color: #fff;
+    color: #060606;
+}
+.contact-me:hover{
+    background-color: black;
+    color: #fff;
+
+}
+.ser h3{
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+    text-align: center;
+    
+
+}
+.ser{
+    text-align: center;
+    position: relative;
+    
+   
+}
+.services{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 30px;
+}
+.ser h3::after{
+    content: '';
+    width: 100%;
+    height: 30px;
+    background-image: url(img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.items{
+    
+    background-color: #fff;
+    padding: 15px;
+    line-height: 2;
+    /* margin: 15px; */
+    /* width: calc(100%/3 - 30px); */
+    /* border-radius: 4px; */
+   
+}
+.items i{
+    font-size: xx-large;
+    background-color: #dbdfdf;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    border-radius: 50%;
+    transition: all .8s;
+}
+.items i:hover{
+    background-color: #060606;
+    color: #fff;
+}
+.items h2{
+    line-height: 1.5;
+}
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+    
+    padding: 40px;
+}
+.brands h5{
+    margin: 0 10px;
+}
+.socket{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.apple{
+    background-color: #fff;
+    width: 96%;
+    height: 96%;
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    transition: all .1s;
+    overflow: hidden;
+}
+.apple h4{
+    margin: 20px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.chain{
+    position: absolute;
+    display: inline-block;
+    bottom: 120;
+    background-color: #060606;
+    color: #fff;
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 150;
+    transition: all .6s;
+}
+.search-plus{
+    position: absolute;
+    display: inline-block;
+    bottom: 120;
+    background-color: #060606;
+    color: #fff;
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: 190;
+    transition: all 0.6s;
+
+}
+.sol{
+    margin: 20px;
+}
+.chain:hover{
+    background-color: #fff;
+    color: #060606;
+
+}
+.search-plus:hover{
+    background-color: #fff;
+    color: #060606;
+
+}
+.socket:hover .apple{
+    top: 2%;
+
+}
+
+.client img{
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.text-center h2{
+    font-weight:400 ;
+    font-size: medium;
+}
+.text-center h3{
+    font-weight:400 ;
+    font-size: medium;
+}
+.group{
+    font-size: larger;
+    font-weight: 700;
+}
+.team{
+    font-size: 30px;
+}
+.family{
+    text-align: center;
+}
+.family h2{
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.family p{
+    font-size: 15px;
+    color: #748182;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.washing h6{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 10px;
+    margin: 15px;
+}
+.washing p{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.read{
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: #fff;
+    
+    
+}
+.raise{
+    background: #f7f7f7;
+    
+    
+}
+
+.washing{
+    background-color: white;
+    height: 65vh;
+    
+}
+.washing img:hover{
+    transform: scale(1.3);
+    transition: all 1s;
+    overflow: hidden;
+    
+}
+.zoom{
+    overflow: hidden;
+}
+.asad{
+    padding-top: 40px;
+    text-align: center;
+    
+}
+.mas{
+    /* font: normal normal normal 14px/1 FontAwesome; */
+    font-size: 30;
+    /* text-rendering: auto; */
+    background: #f4f4f4;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    transition: all.6s;
+}
+.asad h6{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+}
+.mas:hover{
+    background-color: #060606;
+    color: #fff;
+}
+.asad p{
+    color: #748182;
+}
+.masry{
+    padding-top: 30px;
+}
+.zorar{
+    background-color: #060606;
+    color: #fff;
+    transition: all .6s;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 14px;
+}
+.zorar:hover{
+    background-color: #fff;
+    color: #060606;
+}
+.footer{
+    text-align: center;
+    background-color: #060606;
+    padding: 30px;
+}
+.footer p{
+    color: #748182;
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 0;
+}
+
